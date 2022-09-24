@@ -24,6 +24,7 @@
 #invisbox {
     width: 95%;
     height: 82%;
+    left: 4%;
 }
 
 #card {
@@ -46,7 +47,7 @@
     background-size:100% 100%;
     position: absolute;
     left: 2%;
-    top: 89%;
+    top: 84%;
     height: 9%;
     width: 91%;
     border-radius: 25px;
@@ -82,8 +83,8 @@ input[type="file"] {
 
 #under {
     position: absolute;
-    top: 95%;
-    left: 40%;
+    top: 98%;
+    left: 30%;
     font-family:'Futura Std Condensed';
     font-weight:bold;
     color:white;
