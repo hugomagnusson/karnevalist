@@ -65,6 +65,8 @@ input[type="file"] {
 #blah {
     border-radius: 50%;
     transform: rotate(90deg);
+    top: 5%;
+    left: 5%;
     width: 10px;
     height: 10px;
 
@@ -80,7 +82,7 @@ input[type="file"] {
 
 #under {
     position: absolute;
-    top: 100%;
+    top: 95%;
     left: center;
 }
 
