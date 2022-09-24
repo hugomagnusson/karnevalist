@@ -75,7 +75,7 @@ input[type="file"] {
 #lang {
     position: absolute;
     width: 90%;
-    height: 10%;
+    height: 7%;
     background: url('language.png');
     background-size:100% 100%;
 }
@@ -83,7 +83,10 @@ input[type="file"] {
 #under {
     position: absolute;
     top: 95%;
-    left: center;
+    left: 40%;
+    font-family:'Futura Std Condensed';
+    font-weight:bold;
+    color:white;
 }
 
 
