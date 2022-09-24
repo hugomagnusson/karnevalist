@@ -42,6 +42,8 @@
 
 #menu {
     background-color: rgb(145, 219, 219);
+    background: url('menu.png');
+    background-size:100% 100%;
     position: absolute;
     left: 2%;
     top: 89%;
@@ -68,9 +70,11 @@ input[type="file"] {
 
 }
 
-#imgup{
-    width: 10px;
-    height: 10px;
+#language {
+    width: 90%;
+    height: 10%;
+    background: url('language.png');
+    background-size:100% 100%;
 }
 
 
