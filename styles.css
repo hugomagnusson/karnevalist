@@ -1,0 +1,93 @@
+/* The animation code */
+@keyframes example {
+    0%   {background-color: yellow;}
+    33%  {background-color: lightblue;}
+    66%  {background-color: rgb(249, 176, 188);}
+    100%   {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+#colorshiftingbackground {
+    background-color: yellow;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+    position:absolute;
+    margin-left:-8px;
+    margin-top:-8px;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+
+#invisbox {
+    width: 95%;
+    height: 82%;
+}
+
+#card {
+    background-color: blue;
+    position: relative;
+    left: center;
+    top: 17.6%;
+
+    border-radius: 25px;
+
+    height: 87.6%;
+    width: 100%;
+}
+
+#menu {
+    background-color: rgb(145, 219, 219);
+    position: absolute;
+    left: 2%;
+    top: 89%;
+    height: 9%;
+    width: 91%;
+    border-radius: 25px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#namebox {
+    position: relative;
+    top: 200px;
+    transform: rotate(90deg);
+}
+
+#blah {
+    border-radius: 50%;
+    transform: rotate(90deg);
+    width: 10px;
+    height: 10px;
+
+}
+
+#imgup{
+    width: 10px;
+    height: 10px;
+}
+
+
+
+/* 
+skärm = 1792 * 828
+kort = 1282 * 784
+meny = 78 * 752
+invisbox = 1462 * 784
+
+uppifrån till kort = 261
+mellan kort = 18
+nerifrån till meny = 70
+
+Topp av kort till namn = 532
+vänster = 52
+namnkort höjd = 712
+bredd = 400
+
+bild D = 356
+
+*/
